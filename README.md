@@ -15,7 +15,7 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    - Model: gpt-oss:20b  
    - Basic prompt engineering and statistical question answering  
    - [Local LLM Evaluation Demo with Ollama & LangChain](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/ollama_local_prompt_test.ipynb)  
-   - Screenshot: [Output Example](ollama_output_screenshot.png)  # 如果你上传了截图
+   - Screenshot: [Output Example](project_s_01.png)
    -
 2.**Prompt A/B Testing with p-value Analysis**
    - Compared different prompt variants
