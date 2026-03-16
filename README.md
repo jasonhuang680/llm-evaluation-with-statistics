@@ -10,14 +10,19 @@ This repository contains my experiments and frameworks for evaluating Large Lang
 - Transitioning to AI/LLM evaluation roles
 
 ## Key Projects
-1. **Prompt A/B Testing with p-value Analysis**
+
+1. **Local LLM Demo with Ollama + LangChain**  
+   - Model: gpt-oss:20b  
+   - Basic prompt engineering and statistical question answering  
+   - [Local LLM Evaluation Demo with Ollama & LangChain](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/ollama_local_prompt_test.ipynb)  
+   - Screenshot: [Output Example](ollama_output_screenshot.png)  # 如果你上传了截图
+   -
+2.**Prompt A/B Testing with p-value Analysis**
    - Compared different prompt variants
    - Used statistical significance tests
 
-2. **Hallucination Detection**
+3. **Hallucination Detection**
    - Statistical confidence intervals on model outputs
-
-(把你的 notebook 链接放这里)
 
 ## Tech Stack
 - Python, LangChain, Ollama (local LLM)
