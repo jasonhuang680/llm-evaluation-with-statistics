@@ -24,8 +24,12 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    - [Notebook: prompt_ab_testing_demo.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/prompt_ab_testing_demo.ipynb)
    - Screenshot: ![Prompt A/B Test Results](prompt_ab_output_screenshot.png)
 
-3. **Hallucination Detection**
-   - Statistical confidence intervals on model outputs
+3. **Hallucination Detection in LLMs Using Confidence Intervals**  
+   - Tested model on factual and trap questions (5 runs per question)  
+   - Calculated overall hallucination rate: 31.43%  
+   - 95% Confidence Interval: [18.55%, 47.98%]  
+   - [Notebook: hallucination_detection_demo.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/hallucination_detection_demo.ipynb)  
+   - Screenshot: ![Hallucination Detection Results](hallucination_detection_demo.png)
 
 ## Tech Stack
 - Python, LangChain, Ollama (local LLM)
