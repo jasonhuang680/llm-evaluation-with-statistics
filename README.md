@@ -31,6 +31,15 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    - [Notebook: hallucination_detection_demo.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/hallucination_detection_demo.ipynb)  
    - Screenshot: ![Hallucination Detection Results](hallucination_detection_demo.png)
 
+4. **LLM Hallucination Rate Comparator: Statistical Evaluation of Local Models  Compared hallucination rates between two local LLMs (gemma3:4b and llama3.1:8b) on 10 questions (5 factual + 5 trap/fake)
+   - Performed 10 independent full runs per model (100 generations total) with automated detection via bespoke-minicheck
+   -Mean hallucination rate: 11.00% (gemma3:4b) | 20.00% (llama3.1:8b)
+   -Standard deviation: 7.00% (gemma3:4b) | 4.47% (llama3.1:8b)  
+   -Independent t-test p-value: 0.0044 → Statistically significant difference (p < 0.05) 
+   - [Notebook: llm-hallucination-comparator.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/llm-hallucination-comparator.ipynb)  
+   - Screenshot: ![Results](llm-hallucination-comparator.ipynb2.png) 
+
+
 ## Tech Stack
 - Python, LangChain, Ollama (local LLM)
 - Statistical tools: pandas, scipy, statsmodels
