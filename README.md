@@ -37,8 +37,8 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    -Standard deviation: 7.00% (gemma3:4b) | 4.47% (llama3.1:8b)  
    -Independent t-test p-value: 0.0044 → Statistically significant difference (p < 0.05) 
    - [Notebook: llm-hallucination-comparator.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/llm-hallucination-comparator2.ipynb)  
-   - Screenshot: ![Results1](llm-hallucination-comparator2..png)
-   - Screenshot: ![Results2](llm-hallucination-comparator3..png) 
+   - Screenshot: ![Results1](llm-hallucination-comparator2.png)
+   - Screenshot: ![Results2](llm-hallucination-comparator3.png) 
 
 
 ## Tech Stack
