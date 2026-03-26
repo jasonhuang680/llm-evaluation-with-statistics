@@ -38,7 +38,18 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    -Independent t-test p-value: 0.0044 → Statistically significant difference (p < 0.05) 
    - [Notebook: llm-hallucination-comparator.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/Hallucination-Rate-Comparatorr2.ipynb)  
    - Screenshot: ![Results1](Hallucination-Rate-Comparator2.png)
-   - Screenshot: ![Results2](Hallucination-Rate-Comparator3.png) 
+   - Screenshot: ![Results2](Hallucination-Rate-Comparator3.png)
+  
+5. **LLM-Agent: Tool Calling & Agent Framework Powered by LLMs
+   -A lightweight yet powerful framework for building **LLM-based intelligent agents**. It leverages Large Language Models' reasoning capabilities, **tool/function calling**, and advanced **prompt engineering** to automate complex tasks and enable autonomous decision-making.
+   - Seamless support for tool calling across major LLM providers (OpenAI, Anthropic, DeepSeek, Qwen, Grok, etc.)
+   - Flexible and reusable Prompt Management System
+   - Parallel tool execution and intelligent result processing
+   - Agentic workflow orchestration
+   - Easy-to-extend tool registration mechanism
+   - Robust error handling and retry logic
+   - [Notebook: llm-hallucination-comparator.ipynb](https://github.com/jasonhuang680/LLM_Powered_Tool_Agent_with_Prompt_Engineering.ipynb)  
+   - Screenshot: ![Results1](LLM_Powered_Tool_Agent_with_Prompt_Engineering.png)
 
 
 ## Tech Stack
