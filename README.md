@@ -48,7 +48,7 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    - Agentic workflow orchestration
    - Easy-to-extend tool registration mechanism
    - Robust error handling and retry logic
-   - [Notebook: LLM_Powered_Tool_Agent_with_Prompt_Engineeringr.ipynb](https://github.com/jasonhuang680/LLM_Powered_Tool_TAgent_with_Prompt_Engineering.ipynb)  
+   - [Notebook: LLM_Powered_Tool_Agent_with_Prompt_Engineeringr.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/LLM_Powered_Tool_TAgent_with_Prompt_Engineering.ipynb)  
    - Screenshot: ![Results1](LLM_Powered_Tool_Agent_with_Prompt_Engineering.png)
 
 
