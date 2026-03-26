@@ -28,7 +28,7 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    - Tested model on factual and trap questions (5 runs per question)  
    - Calculated overall hallucination rate: 31.43%  
    - 95% Confidence Interval: [18.55%, 47.98%]  
-   - [Notebook: hallucination_detection_demo.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/hallucination_detection_demo.ipynb)  
+   - [Notebook: hallucination_detection_demo.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/hallucination_detection_demo.ipynb) 
    - Screenshot: ![Hallucination Detection Results](hallucination_detection_demo.png)
 
 4. **LLM Hallucination Rate Comparator: Statistical Evaluation of Local Models  Compared hallucination rates between two local LLMs (gemma3:4b and llama3.1:8b) on 10 questions (5 factual + 5 trap/fake)
