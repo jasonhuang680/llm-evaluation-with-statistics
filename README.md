@@ -59,7 +59,7 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    -Ran 20,000 simulation paths over 1 year (252 steps)
    -Computed time-dependent Expected Exposure (EE) and 95% PFE
    -Plotted full Exposure Profile to visualize risk evolution
-   - [Notebook: Monte_Carlo_cross_margin_simulation1.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/Monte_Carlo_cross_margin_simulation1g.ipynb)   
+   - [Notebook: Monte_Carlo_cross_margin_simulation1.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/Monte_Carlo_cross_margin_simulation1.ipynb)   
    - Screenshot: ![Plotted full Exposure Profile to visualize risk evolution](Monte_Carlo_cross_margin_simulation1.png)
 
 
