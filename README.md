@@ -41,7 +41,8 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    - Screenshot: ![Results2](Hallucination-Rate-Comparator3.png)
   
 5. **LLM-Agent: Tool Calling & Agent Framework Powered by LLMs
-   -A lightweight yet powerful framework for building **LLM-based intelligent agents**. It leverages Large Language Models' reasoning capabilities, **tool/function calling**, and advanced **prompt engineering** to automate complex tasks and enable autonomous decision-making.
+   -A lightweight yet powerful framework for building **LLM-based intelligent agents**. It leverages Large Language Models' reasoning capabilities, **tool/function calling**, and advanced **prompt engineering** to
+    automate complex tasks and enable autonomous decision-making.
    - Seamless support for tool calling across major LLM providers (OpenAI, Anthropic, DeepSeek, Qwen, Grok, etc.)
    - Flexible and reusable Prompt Management System
    - Parallel tool execution and intelligent result processing
@@ -50,6 +51,18 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    - Robust error handling and retry logic
    - [Notebook: LLM_Powered_Tool_Agent_with_Prompt_Engineeringr.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/LLM_Powered_Tool_Agent_with_Prompt_Engineering.ipynb)   
    - Screenshot: ![Results1](LLM_Powered_Tool_Agent_with_Prompt_Engineering.png)
+     
+6. **Cross-Margin Monte Carlo Simulation
+   -Built a Python Monte Carlo simulation to evaluate cross-margin benefits in counterparty credit risk modeling.
+   -Modeled 4 financial products with realistic correlations using Geometric Brownian Motion
+   -Applied Cholesky decomposition to generate correlated stochastic shocks
+   -Ran 20,000 simulation paths over 1 year (252 steps)
+   -Computed time-dependent Expected Exposure (EE) and 95% PFE
+   -Plotted full Exposure Profile to visualize risk evolution
+   - [Notebook: Monte_Carlo_cross_margin_simulation1.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/Monte_Carlo_cross_margin_simulation1g.ipynb)   
+   - Screenshot: ![Plotted full Exposure Profile to visualize risk evolution](Monte_Carlo_cross_margin_simulation1.png)
+
+
 
 ## Tech Stack
 - Python, LangChain, Ollama (local LLM)
