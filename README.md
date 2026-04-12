@@ -31,7 +31,7 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    - [Notebook: hallucination_detection_demo.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/hallucination_detection_demo.ipynb) 
    - Screenshot: ![Hallucination Detection Results](hallucination_detection_demo.png)
 
-4. **LLM Hallucination Rate Comparator: Statistical Evaluation of Local Models  Compared hallucination rates between two local LLMs (gemma3:4b and llama3.1:8b) on 10 questions (5 factual + 5 trap/fake)
+4. **LLM Hallucination Rate Comparator: Statistical Evaluation of Local Models  Compared hallucination rates between two local LLMs (gemma3:4b and llama3.1:8b) on 10 questions (5 factual + 5 trap/fake)**
    - Performed 10 independent full runs per model (100 generations total) with automated detection via bespoke-minicheck
    -Mean hallucination rate: 11.00% (gemma3:4b) | 20.00% (llama3.1:8b)
    -Standard deviation: 7.00% (gemma3:4b) | 4.47% (llama3.1:8b)  
@@ -40,7 +40,7 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    - Screenshot: ![Results1](Hallucination-Rate-Comparator2.png)
    - Screenshot: ![Results2](Hallucination-Rate-Comparator3.png)
   
-5. **LLM-Agent: Tool Calling & Agent Framework Powered by LLMs
+5. **LLM-Agent: Tool Calling & Agent Framework Powered by LLMs**
    -A lightweight yet powerful framework for building **LLM-based intelligent agents**. It leverages Large Language Models' reasoning capabilities, **tool/function calling**, and advanced **prompt engineering** to
     automate complex tasks and enable autonomous decision-making.
    - Seamless support for tool calling across major LLM providers (OpenAI, Anthropic, DeepSeek, Qwen, Grok, etc.)
@@ -52,7 +52,7 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    - [Notebook: LLM_Powered_Tool_Agent_with_Prompt_Engineeringr.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/LLM_Powered_Tool_Agent_with_Prompt_Engineering.ipynb)   
    - Screenshot: ![Results1](LLM_Powered_Tool_Agent_with_Prompt_Engineering.png)
      
-6. **Cross-Margin Monte Carlo Simulation
+6. **Cross-Margin Monte Carlo Simulation**
    -Built a Python Monte Carlo simulation to evaluate cross-margin benefits in counterparty credit risk modeling.
    -Modeled 4 financial products with realistic correlations using Geometric Brownian Motion
    -Applied Cholesky decomposition to generate correlated stochastic shocks
@@ -70,7 +70,7 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    - Computed time-dependent Expected Exposure (EE), 97.5% Potential Future Exposure (PFE), and approximate EAD.
    - Implemented stochastic interest rates (CIR), jump risk, and early conversion approximation for the convertible bond.
    - Visualized the full exposure profile to analyze risk evolution under netting.
-   - [View Notebook](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/cross_margin_pfe_simulation.ipynb)
+   - [View Notebook：cross_margin_pfe_simulation](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/cross_margin_pfe_simulation.ipynb)
    - Screenshot:![Exposure Profile](cross_margin_pfe_simulation.png)
 
 
