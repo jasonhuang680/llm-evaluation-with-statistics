@@ -61,7 +61,17 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    -Plotted full Exposure Profile to visualize risk evolution
    - [Notebook: Monte_Carlo_cross_margin_simulation1.ipynb](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/Monte_Carlo_cross_margin_simulation1.ipynb)   
    - Screenshot: ![Plotted full Exposure Profile to visualize risk evolution](Monte_Carlo_cross_margin_simulation1.png)
-
+     
+7. **Cross-Margin Counterparty Credit Risk Monte Carlo Simulation**
+   - Built a Python Monte Carlo framework to quantify cross-margin benefits in counterparty credit risk (CCR) modeling.
+   - Modeled a diversified portfolio of four financial products: Equity Swap (Merton Jump-Diffusion), Commodity Derivative (GBM), Convertible Bond (CIR with credit spread), and TSLA Call Option (Merton Jump-Diffusion).
+   - Incorporated realistic correlations between assets using Cholesky decomposition.
+   - Simulated 5,000 paths over a 2-year horizon with monthly time steps.
+   - Computed time-dependent Expected Exposure (EE), 97.5% Potential Future Exposure (PFE), and approximate EAD.
+   - Implemented stochastic interest rates (CIR), jump risk, and early conversion approximation for the convertible bond.
+   - Visualized the full exposure profile to analyze risk evolution under netting.
+   - [View Notebook](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/Monte_Carlo_cross_margin_simulation.ipynb)
+   - ![Exposure Profile](Monte_Carlo_cross_margin_simulation.png)
 
 
 ## Tech Stack
