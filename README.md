@@ -70,8 +70,8 @@ This repository contains my experiments and frameworks for evaluating Large Lang
    - Computed time-dependent Expected Exposure (EE), 97.5% Potential Future Exposure (PFE), and approximate EAD.
    - Implemented stochastic interest rates (CIR), jump risk, and early conversion approximation for the convertible bond.
    - Visualized the full exposure profile to analyze risk evolution under netting.
-   - [View Notebook](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/Monte_Carlo_cross_margin_simulation.ipynb)
-   - ![Exposure Profile](Monte_Carlo_cross_margin_simulation.png)
+   - [View Notebook](https://github.com/jasonhuang680/llm-evaluation-with-statistics/blob/main/cross_margin_pfe_simulation.ipynb)
+   - Screenshot:![Exposure Profile](cross_margin_pfe_simulation.png)
 
 
 ## Tech Stack
